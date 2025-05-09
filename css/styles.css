@@ -11002,4 +11002,28 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+
+
+}
+
+.w2{
+  width: 400%;
+  height: 97.2%;
+  
+}
+
+.w3{
+  
+  height: 83%;
+  width: 100vh;
+
+}
+
+.w1{
+  height: 83%;
+}
+.w4{
+  height: 83%;
+   width: 100vh;
+
 }
