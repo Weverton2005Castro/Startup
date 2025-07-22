@@ -56,3 +56,21 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 });
+
+const numero = '5592985353980'; // Substitua pelo seu número com DDI+DDD
+
+    function toggleCaixa() {
+      const caixa = document.getElementById('caixa');
+      caixa.style.display = caixa.style.display === 'block' ? 'none' : 'block';
+    }   
+
+    function enviarWhatsApp() {
+      const mensagem = document.getElementById('mensagem').value.trim();
+      if (mensagem === '') {
+        alert('Digite uma mensagem antes de enviar.');
+        return;
+      }
+
+      const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+      window.open(url, '_blank');
+    }

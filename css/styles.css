@@ -11027,3 +11027,70 @@ header.masthead h1, header.masthead .h1 {
    width: 100vh;
 
 }
+    /* Botão flutuante do WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      cursor: pointer;
+      z-index: 999;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1ebe57;
+    }
+
+    /* Caixa de mensagem oculta */
+    .whatsapp-box {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      display: none;
+      z-index: 998;
+    }
+
+    .whatsapp-box h4 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .whatsapp-box input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .whatsapp-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .whatsapp-box button:hover {
+      background-color: #1ebe57;
+    }
